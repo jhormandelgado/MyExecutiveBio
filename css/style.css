@@ -1,0 +1,24 @@
+/* =====================================================
+   Executive Bio
+   Author: Jhorman David Delgado Rios
+===================================================== */
+
+:root {
+    --primary: #2563EB;
+    --dark: #0F172A;
+    --gray: #64748B;
+    --light: #F8FAFC;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter',sans-serif;
+    background: var(--light);
+    color: var(--dark);
+}
