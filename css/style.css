@@ -22,3 +22,64 @@ body {
     background: var(--light);
     color: var(--dark);
 }
+
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( 180deg, #F8FAFC 0%, #EEF4FF 100% );
+}
+
+.section-tag {
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    margin-top: 15px;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.hero-name {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.hero-role {
+    margin-top: 15px;
+    color: var(--gray);
+    font-size: 1.35rem;
+    line-height: 1.5;
+}
+
+.hero-description {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: var(--gray);
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.hero-buttons {
+    margin-top: 35px;
+    display: flex;
+    gap: 15px;
+}
+
+.profile-card {
+    display: inline-block;
+    padding: 18px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0,0,0,.08);
+}
+
+.profile-image {
+    width: 320px;
+    border-radius: 14px;
+}
