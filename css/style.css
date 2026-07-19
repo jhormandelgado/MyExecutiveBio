@@ -199,6 +199,44 @@ body {
    TECHNICAL EXPERTISE
 ======================================================= */
 
+#technical-expertise {
+    padding: 120px 0;
+    background: white;
+}
+
+.section-description {
+    max-width: 750px;
+    margin: 25px auto 0;
+    color: var(--gray);
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.skills-grid {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.skill-chip {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    padding: 16px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #334155;
+    cursor: default;
+    transition: .30s ease;
+}
+
+    .skill-chip:hover {
+        background: #2563eb;
+        color: white;
+        transform: translateY(-5px);
+        box-shadow: 0 18px 35px rgba(37,99,235,.25);
+    }
 
 /* =======================================================
    PROFESSIONAL PHILOSOPHY
