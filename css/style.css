@@ -138,6 +138,70 @@ body {
     color: var(--gray);
 }
 
+/* ==========================================
+   PROFESSIONAL PROFILE
+========================================== */
+
+#profile {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+#profile h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+#profile p {
+    max-width: 950px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #444;
+}
+
+/* ==========================================
+   CORE COMPETENCIES
+========================================== */
+
+#competencies {
+    padding: 90px 0;
+    background: #f8f9fc;
+}
+
+#competencies h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+.card p {
+    line-height: 1.8;
+}
+
 /* =====================================
    CAREER HIGHLIGHTS
 ===================================== */
@@ -201,19 +265,10 @@ body {
 
 #technical-expertise {
     padding: 120px 0;
-    background: white;
-}
-
-.section-description {
-    max-width: 750px;
-    margin: 25px auto 0;
-    color: var(--gray);
-    line-height: 1.8;
-    font-size: 1.1rem;
+    background: #ffffff;
 }
 
 .skills-grid {
-    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -221,22 +276,22 @@ body {
 }
 
 .skill-chip {
-    background: #f8fafc;
-    border: 1px solid #e5e7eb;
-    padding: 16px 24px;
+    padding: 14px 24px;
     border-radius: 50px;
-    font-weight: 600;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
     color: #334155;
-    cursor: default;
-    transition: .30s ease;
+    font-weight: 600;
+    transition: all .30s ease;
+    user-select: none;
 }
 
-    .skill-chip:hover {
-        background: #2563eb;
-        color: white;
-        transform: translateY(-5px);
-        box-shadow: 0 18px 35px rgba(37,99,235,.25);
-    }
+.skill-chip:hover {
+    background: #2563eb;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 18px 35px rgba(37,99,235,.25);
+}
 
 /* =======================================================
    PROFESSIONAL PHILOSOPHY
@@ -246,3 +301,35 @@ body {
 /* =======================================================
    FOOTER
 ======================================================= */
+
+/* =======================================================
+   SECTION HEADERS
+======================================================= */
+
+.section-header {
+    margin-bottom: 70px;
+}
+
+.section-tag {
+    display: inline-block;
+    color: #2563eb;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-top: 15px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.section-description {
+    max-width: 760px;
+    margin: 25px auto 0;
+    color: #64748b;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
